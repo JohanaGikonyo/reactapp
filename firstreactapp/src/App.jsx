@@ -57,11 +57,8 @@ function App() {
     padding:'50px',
     color:'orange',
     textAlign:'center',
-    
-  
   };
-
-
+  
   return (
     <div>
       <h1 className='title'>Hello Thiru Visitors?<i ><box-icon name='book-reader' style={icon}></box-icon></i></h1>
@@ -111,9 +108,6 @@ function App() {
   <a href="#"><box-icon name='info-circle' class="menus"></box-icon>About</a><br/>
   <a href="#"><box-icon name='phone-call'class="menus" ></box-icon>Contact</a><br/>
   <a href="#"><box-icon name='color-fill' class="menus"></box-icon>Login portal</a><br/>
-
-
-
       <div class="row foots" style={follow}>
 
       <p ></p>
