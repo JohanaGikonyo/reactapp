@@ -2,6 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+//import About from './about';
+
+const About=()=>{
+  return(<h2></h2>)
+}
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -60,19 +65,21 @@ function App() {
   };
   
   return (
+    
     <div>
+    <About />
       <h1 className='title'>Hello Thiru Visitors?<i ><box-icon name='book-reader' style={icon}></box-icon></i></h1>
       <div class="row">
-        <div class='col-md-4'><button class="btn btn-danger"><a >login</a> </button></div>
-        <div class='col-md-4'><button class="btn btn-primary"><a>Get marks</a> </button></div>
-        <div class='col-md-4'><button class="btn btn-danger"><a>register</a> </button></div>
+        <div class='col-md-4'><button class="btn btn-danger linkss"><a >login</a> </button></div>
+        <div class='col-md-4 '><button class="btn btn-primary linkss"><a>Get marks</a> </button></div>
+        <div class='col-md-4'><button class="btn btn-danger linkss"><a>register</a> </button></div>
 
 
 
       </div>
       <div class="row">
 
-        <div class="col-xl-6">
+        <div class="col-xl-6 ">
           <div class="well no text-center">
             <h2 className='motto'>MOTTO: HARD WORK PAYS</h2>
             <h3 >MUCH PRIVELEDGE TO HAVE YOU!</h3>
@@ -80,7 +87,7 @@ function App() {
           </div>
 
         </div>
-        <div class="col-xl-6">
+        <div class="col-xl-6 ">
           <div class="well yes text-center">
             <h3>Welcome all</h3><br />
             Thiru is a day school located at Laikipia county, Laikipia west constituency, Nyahururu district,
@@ -95,11 +102,13 @@ function App() {
 
 
       <div class="row">
-        <div class='col-md-6'><button class="btn btn-primary ">Like <box-icon name='like' type='solid'></box-icon></button>
+        <div class='col-md-6'><button class="btn btn-primary linkss" title='I like this'>Like <box-icon name='like' type='solid'></box-icon></button>
         </div>
-        <div class='col-md-6'><button class="btn btn-danger">Dislike <box-icon name='dislike'
+        <div class='col-md-6'><button class="btn btn-danger linkss" title='I dislike'>Dislike <box-icon name='dislike'
           type='solid'></box-icon></button></div>
       </div><br/><br/><br/>
+
+      
       <footer style={footerStyle}>
       
       <div style={containerStyle}>
@@ -117,11 +126,13 @@ function App() {
      <div class="col-sm-3"><box-icon name='twitter' type='logo' ></box-icon></div>
      <div class="col-sm-3"><box-icon name='instagram' type='logo' ></box-icon></div>
       </div>
+
+      
         <p style={textStyle}>©copywrite 2023 #thirusecondaryschool@gmail.com</p>
       </div>
     </footer>
     
-      
+    <a href='https://wa.me/0726055619' target='_blank' className="whatsapp-float" rel='noopener noreferrer'><box-icon name='whatsapp' type='logo' className="whatsapp" ></box-icon></a>
     
     </div>
   )

@@ -2,29 +2,6 @@ body{
   
   
 }
-.no{
-background-color: rgb(245, 206, 206);
-border: solid brown;
-color: deepskyblue;
-border-radius: 10px;
-width: 50%;
-height: 200px;
-padding: 20px;
-margin: 25px;
-}
-.yes{
-  background-color: rgb(235, 213, 213);
-  border: solid orange;
-  border-radius: 10px;
-  width: 50%;
-  color: rgb(238, 85, 111);
-height: 200px;
-padding: 20px;
-margin: 25px;
-
-}
-
-
 nav{
   background: #333;
   display: flex;
